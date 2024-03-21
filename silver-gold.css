@@ -1,0 +1,525 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+.space-sec{
+    height: 15vh;
+}
+/*Header start*/
+.header{
+    background-color: #2b6777;
+    width: 100%;
+    height:15vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img{
+    width: 20%;
+    height: auto;
+}
+
+.nav-link{
+    margin-right: 10px;
+}
+.nav-link a{
+    text-decoration: none;
+    color: rgba(243, 243, 243, 0.952);
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.nav-link a:hover{
+    color: #cacacae5;
+    transition: 0.3s;
+}
+
+/*Header end*/
+
+/*intro -section-start*/
+.intro{
+    background-image: url("intro-coin-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+}
+.intro-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c0c094;
+}
+.intro-box{
+    width: 50%;
+    margin: auto;
+}
+.intro-box h1{
+    color: #2b6777;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.intro-box h2{
+    color: #000000;
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+.intro-box .underline{
+    width: 80%;
+    background-color: #2b6777;
+    height: 3px;
+    margin-bottom: 30px;
+    }
+.intro-box p{
+    color: #000000;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+}
+.intro-box .intro-btn{
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+}
+.intro-box .intro-btn a{
+    background-color: rgb(247, 159, 97);
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.intro-box .intro-btn a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #2b6777;
+}
+
+
+/*intro -section-end*/
+
+/*about-section-start*/
+.about{
+    background-color: #c2d2bd ;
+    width: 100%;
+}
+.about-detail{
+    width: 65%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.about-1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.about-detail .about-1 p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.801);
+}
+.signature-img{
+    width: 30%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+/*about -section-end*/
+
+/*clear-confuse-section-start*/
+.clearing{
+ width: 65%;
+    margin: auto;
+}
+.clear-detail{
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.clear-detail h2{
+    color: #2b6777;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.clear-detail .underline{
+width: 100%;
+background-color: chocolate;
+height: 4px;
+margin-bottom: 30px;
+}
+.clear-detail p{
+    color: #000000d8;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.mySlides {display: none;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #030e12;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #2b6777;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*clear-confuse-section-end*/
+
+/*faq-section-start*/
+.faq{
+    width: 100%;
+    height: 60vh;
+    background-color: #c2d2bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.faq-content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.faq-content > .faq-text{
+    width: 40%;
+    margin: auto;
+}
+.faq-box p{
+    width: 85%;
+    margin: auto;
+    font-size: 30px;
+    word-spacing: 15px;
+    color: rgba(0, 0, 0, 0.89);
+    line-height: 45px;
+    padding-right: 10px;
+}
+
+
+.faq-list ul li{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.89);
+    line-height: 45px;
+    display: 100%;
+    padding-left: 10px;
+    list-style: none;
+}
+.faq-list ul li span{
+    font-size: 25px;
+    color: rgba(243, 191, 21, 0.89);
+    background-color: #2b6777;
+    padding: 2px 12px;
+    border-radius: 50%;
+}
+/*faq-section-end*/
+
+/*short-intro-section-start*/
+.short-intro{
+    width: 80%;
+    margin: auto;
+}
+.short-intro-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.short-intro-box{
+    width: 90%;
+    margin: auto;
+}
+
+.short-intro-box h2{
+    color: #000000;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+.short-intro-box .underline{
+    width: 85%;
+    background-color: #2b6777;
+    height: 3px;
+    margin-bottom: 30px;
+    }
+.short-intro-box p{
+    color: #000000c4;
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+}
+.short-intro-img{
+    width: 90%;
+}
+/*short-intro-section-start*/
+
+/*guideline-section-start*/
+.guideline{
+    background-color: #c2d2bd ;
+    width: 100%;
+}
+.guideline-detail{
+    width: 75%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.guideline-text{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.guideline-detail .guideline-text h2{
+    color: #000000;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.guideline-text .underline{
+    width: 80%;
+    background-color: #f1bf36;
+    height: 3px;
+    margin: auto;
+    }
+.guideline-detail .guideline-text p{
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.801);
+    text-align: center;
+    line-height: 35px;
+}
+/*guideline-section-end*/
+
+/*pricing-section-start*/
+.pricing{
+    background-color: #ffffff;
+    width: 100%;
+}
+.pricing-detail{
+    width: 75%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pricing-text{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pricing-detail .pricing-text h2{
+    color: #000000;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.pricing-text .underline{
+    width: 60%;
+    background-color: #f1bf36;
+    height: 3px;
+    margin: auto;
+    }
+.pricing-detail .pricing-text p{
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.925);
+    text-align: center;
+    line-height: 35px;
+}
+.pricing-img{
+    width: 80%;
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 20px;
+}
+.tagline{
+    background-color: #c2d2bd;
+    width: 100%;
+}
+.tagline p{
+    color: rgba(0, 0, 0, 0.801);
+    font-size: 40px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+/*pricing-section-end*/
+
+/*appointment-section-start*/
+.appointment-detail{
+    width: 70%;
+    margin: auto;
+}
+
+.appointment-detail h2{
+    color: #000000;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.appointment-detail .underline{
+    width: 100%;
+    background-color: #f1bf36;
+    height: 3px;
+    margin: auto;
+    }
+.appointment-detail p{
+    color: #000000c4;
+    font-size: 17px;
+    padding-top: 20px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.meeting-content{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.meeting-content p{
+    color: #000000;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+.meeting-content form{
+    padding-top: 20px;
+    width: 60%;
+    margin: auto;
+}
+.meeting-content form select{
+    font-size: 15px;
+    padding: 4px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    width: 20%;
+}
+.meeting-content form input{
+    width:50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+    padding: 8px;
+    outline: none;
+}
+.meeting-content form p{
+    text-align: center;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.774);
+}
+.meeting-content form textarea{
+    width:50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+    padding: 8px;
+    height: 70px;
+    outline: none;
+}
+.meeting-content form input:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.678);
+}
+.meeting-content form textarea:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.678);
+}
+.meeting-content form .form-submit-btn{
+    width:50%;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.863);
+    border: none;
+    font-size: 17px;
+    padding: 8px;
+    outline: none;
+}
+.meeting-content form .form-submit-btn:hover{
+    background-color: rgba(0, 0, 0, 0.877);
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease;
+}
+/*appointment-section-end*/
+
+/*footer-section-start*/
+.footer{
+    background-color: #030303;
+    width: 100%;
+    margin: 0px;
+}
+.footer a .up-btn{
+    color: rgba(0, 0, 0, 0.904);
+    font-size: 40px;
+    display: block;
+    padding: 0px 10px;
+    margin: auto;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.footer a .up-btn:hover{
+    color: #2b6777;
+    transition: 0.4s;
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 17px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+/*footer-section-end*/
