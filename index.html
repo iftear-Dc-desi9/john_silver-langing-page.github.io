@@ -8,22 +8,30 @@
     <title>Jhon'ssilver.com</title>
     <link rel="stylesheet" href="silver-gold.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 
 <body>
     <!--navbar start-->
     <header class="header"id="top">
-        <div class="navbar">
-            <div class="logo-box">
-                <img src="shot-cropped-1571507891383-removebg-preview.png" alt="logo" class="logo-img">
-            </div>
+        
+        <div class="navbar" id="myNav">
+            <span href="#"class="logo">
+                <img src="johns silver logo.png" alt="logo"class="logo-img">
+            </span>
             <div class="nav-link">
-                <a href="#why-silver">why silver?</a>
-                <a href="#our-program">Our Program</a>
-                <a href="#sign-up">Sign Up</a>
+            <a href="#">why silver?</a>
+            <a href="#">Our Program</a>
+            <a href="#">Sign Up</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
             </div>
-        </div>
+            
+          </div>
+
     </header>
     <!--navbar end-->
     <!--intro-section start-->
@@ -38,7 +46,7 @@
                     <button type="submit" class="intro-btn"><a href="#appointment"> Make an appointment</a></button>
                 </div>
                 <div class="intro-img-box">
-                    <img src="silver-coin.png" alt="Tim's-silver" class="intro-img">
+                    <img src="silver-coin.png" alt="Tim's-silver" class="intro-img"style="width:100%">
                 </div>
             </div>
         </article>
@@ -238,9 +246,19 @@
     <!--appointment-section-end-->
     <div class="space-sec"></div>
     <footer class="footer">
-        <a href="#top"><button class="up-btn"><i class='fas fa-angle-up'></i></button></a>
-        <p>© 2021 Timssilver.com - ALL RIGHTS RESERVED</p>
+        <a href="#top"><button class="up-btn"><i class='fa fa-angle-up'></i></button></a>
+        <p>© 2024 Timssilver.com - ALL RIGHTS RESERVED</p>
     </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myNav");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+        </script>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="silver-gold.js"></script>
